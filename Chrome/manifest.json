@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "HighSpell Wiki Redirector",
+  "version": "1.0",
+  "description": "Redirects highspell.fandom.com to highspell.wiki and rewrites Google search result links.",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://highspell.fandom.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "redirectRules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/search*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

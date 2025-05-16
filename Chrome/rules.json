@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://highspell.wiki/index.php?search=\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://highspell\\.fandom\\.com/.*?/([^/?#]+)",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
