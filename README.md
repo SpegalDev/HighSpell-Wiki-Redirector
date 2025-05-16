@@ -16,13 +16,11 @@ A lightweight browser extension for Firefox and Chrome that automatically redire
 
 ### Firefox
 
-Install via the [Firefox Add-ons site](https://addons.mozilla.org/en-US/firefox/addon/highspell-wiki-redirector/).  
-(*Link will be updated once published.*)
+Install via the [Firefox Add-ons site](https://addons.mozilla.org/en-US/firefox/addon/highspell-wiki-redirector/).
 
 ### Chrome
 
-Install via the [Chrome Web Store](#).  
-(*Link will be updated once published.*)
+Install via the [Chrome Web Store](https://chromewebstore.google.com/detail/ibfmleobgailbkkoaecojdanjlalmnbn/).
 
 ---
 
