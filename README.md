@@ -42,15 +42,6 @@ You can run the extension directly as an unpacked extension in your browser:
 
 ---
 
-## 📁 File Overview
-
-- `manifest.json` – Extension configuration and permissions
-- `background.js` – Redirect logic
-- `content.js` – Link replacement logic for search engines
-- `icon-X.png` – Extension icon(s)
-
----
-
 ## 📝 License
 
 This project is open source and available under the [MIT License](https://github.com/SpegalDev/HighSpell-Wiki-Redirector/blob/main/LICENSE).
