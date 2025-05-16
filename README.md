@@ -55,10 +55,10 @@ You can run the extension directly as an unpacked extension in your browser:
 
 ## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://github.com/SpegalDev/HighSpell-Wiki-Redirector/blob/main/LICENSE).
 
 ---
 
 ## 💬 Questions / Feedback
 
-Feel free to [open an issue](https://github.com/yourusername/highspell-redirect/issues) or contribute via pull requests.
+Feel free to [open an issue](https://github.com/SpegalDev/HighSpell-Wiki-Redirector/issues) or contribute via pull requests.
